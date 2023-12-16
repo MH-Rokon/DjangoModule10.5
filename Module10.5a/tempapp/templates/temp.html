@@ -1,0 +1,39 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ 
+  <title>Template</title>
+</head>
+
+<body>
+    
+    <h1>Name : {{name}}</h1>
+    <h1>id : {{id}}</h1>
+    <h1> {{list | join:" - " }}</h1>
+    <h1>{{ birthday | date:"D d M Y" }}</h1>
+ 
+    <h1>{{ val | add:"50" }} </h1>
+    <h1>{{ l1 | add:l2}} </h1>
+
+    <h1>{{ name | capfirst }}</h1>
+    <h1> {{ c | cut:" " }}</h1>
+    <h1> {{ di | dictsort:"name" }}</h1>
+    <h1> {{ c | cut:" " }}</h1>
+    <h1> {{ ci| first }}</h1>
+    <h1> {{ ci | last }}</h1>
+    <h1> {{ ci | length }}</h1>
+    <h1>{{ ci | upper }}</h1>
+    <h1>{{ c | title }}</h1>
+    <h1>{{ ci | random }}</h1>
+    <h1>{{ ci | slice:":3" }}</h1>
+    <h1>{{ c | truncatechars:6 }}</h1>
+    <h1> {{ c | wordcount }}</h1>
+    <h1> {{ tw | truncatewords:3 }}</h1>
+    <h1> {{ c | make_list }}.h1>
+
+    
+</body>
+
+</html>
